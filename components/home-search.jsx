@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Input } from "./ui/input";
 import { Camera, Upload } from "lucide-react";
 import { Button } from "./ui/button";
-import { useDropzone } from "react-dropzone/";
+import { useDropzone } from "react-dropzone";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import useFetch from "@/hooks/use-fetch";
